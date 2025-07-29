@@ -1,0 +1,390 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: white;  
+}
+
+.font-header{
+    background-image: url(./Travail\ du\ Groupe3/banner-bg.jpg);
+    background-size: cover;
+    height: 400px;
+    border-radius: 0 0 150px 150px;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.nav-header, .tête{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+
+.tête ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.tête ul li{
+    padding: 1rem;
+    height: 50px;
+
+}
+
+
+.menu{
+    background-color: rgb(52, 137, 234);
+    backdrop-filter: blur(10px);
+    margin-top: 1rem;
+}
+
+.menu1{
+    background-color: rgb(52, 137, 234);
+    backdrop-filter: blur(10px);
+    margin-top: 1rem;
+    display: none;
+}
+
+.nav-header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.nav-header ul li a:hover{
+   background-color: rgba(183, 187, 189, 0.534);
+}
+
+.btn-header{
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.btn-header a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-side{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(249, 249, 255, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 1rem;
+    padding-top: 2.5rem;
+    z-index: 999;
+    display: none;
+}
+
+.tete ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    width: 100%;
+
+}
+
+.tete ul li{
+    padding: 1rem;
+    height: auto;
+    width: 100%;
+}
+
+.nav-side ul li a{
+    text-decoration: none;
+    color: rgb(23, 48, 239);
+    padding: 10px;
+}
+
+.nav-side ul li a:hover{
+   background-color: rgba(183, 187, 189, 0.534);
+}
+
+
+#nav-mess{
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+    font-size: 2rem;
+}
+
+.nav-mouv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.classe-jeu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.classe1{
+    margin-left: 1rem;
+    background-color: rgb(221, 17, 17);
+    padding: 0.6rem;
+    border-radius: 50px;
+    border: none;
+    color: rgb(248, 249, 250);
+    font-weight: bold; 
+}
+
+.classe{
+    margin-left: 1rem;
+    background-color: rgb(209, 207, 207);
+    padding: 0.6rem;
+    border-radius: 50px;
+    border: none;
+    color: rgb(13, 13, 14);
+    font-weight: bold;
+}
+
+/* les classe-jeu */
+
+
+.section-photo{
+    padding: 12px;
+    margin-top: 3rem;
+    transition: 0.5s;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.section-photo:hover{
+    transform: translateY(-10px);
+    .name-game h2{
+        color: blue;
+    }
+    
+    .btn-lock{
+    background-color: blue;
+    } 
+}
+
+
+.cadre{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    background-color:  rgb(209, 207, 207);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.photo{
+   display: block;
+   border-radius: 15px;
+   width: 100%;
+}
+
+.carre-image{
+    position: absolute;
+    background-color: blue;
+    padding: 6px;
+    width: 70px;
+    border-radius: 15px;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform: none;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.name-game{
+    line-height: 30px;
+}
+
+.name-game p{
+    color:  rgb(82, 80, 80);
+}
+
+.btn-lock{
+    background-color:  rgb(221, 17, 17);
+    padding: 15px;
+    border: none;
+    margin-right: 7px;
+    border-radius: 30px;
+    color: white;
+}
+
+.btn-lock span i{
+    font-size: large;
+}
+
+
+.top-photo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  margin: 3rem 6rem;
+}
+
+.nav-page{
+    margin-bottom: 7em;
+}
+
+.jeu-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.jeu-nav .pag-jeu-nav{
+    margin: 1rem;
+    padding: 1rem;
+} 
+
+.pag-jeu-nav i{
+    padding: 15px;
+    background-color: rgb(209, 207, 207);
+    border-radius: 40px;
+}
+
+.pag-jeu-nav button{
+    padding: 15px;
+    background-color: rgb(209, 207, 207);
+    border-radius: 40px;
+    border: none;
+}
+
+#color{
+    background-color: blue;
+}
+
+footer p{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding-bottom: 9rem;
+    border-radius: 10rem 10rem 0 0;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+@media screen and (max-width : 880px){
+    
+    .tête{
+        display: none;
+    }
+
+    .menu1{
+    display: block;
+    }
+
+    header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 15px;
+    }
+    
+    #nav-mess{
+        font-size: 1.5rem;
+    }
+
+    .nav-mouv{
+    font-size: 1rem;
+    }
+
+    .classe-jeu{
+    margin-top: 4rem;
+    }
+
+    .classe1{
+    margin-left: 4%;
+    padding: 0.3rem;
+    font-size: 10px;
+    width: 100%;
+    }
+
+    .classe{
+        margin-left: 0.4rem;
+        padding: 0.3rem;
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .section-photo{
+    padding: 7px;
+    margin-top: 0.4rem;
+    }
+
+    .top-photo {
+    gap: 1rem;
+    padding: 0.7rem;
+    margin: 0.8rem 1.5rem;
+    }
+
+    .nav-page{
+    margin-bottom: 4em;
+    }
+
+    .jeu-nav .pag-jeu-nav{
+        margin: 0.1rem;
+        padding: 0.5rem;
+    } 
+
+    .pag-jeu-nav i{
+        padding: 10px;
+    }
+
+    .pag-jeu-nav button{
+        padding: 10px;
+        border-radius: 40px;
+    }
+
+    footer p{
+    padding-bottom: 4rem;
+    border-radius: 5rem 5rem 0 0;
+    padding-top: 40px;
+    font-size: 7px;
+    font-weight: bold;
+    }
+    
+}
+
+
+
+

@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.header1 {
+    background-color: #F8CB2E;
+    text-align: justify;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.header1 p {
+    margin-left: 4rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.header1 p i {
+    color: #EE5007;
+    font-size: 1.2rem;
+}
+
+#myVideo {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+nav {
+    display: flex;
+    margin: 1rem;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+
+nav h2 {
+    color: white;
+    font-size: 2rem;
+    margin-right: 3rem;
+    margin-left: 1rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+ .navbar nav ul li {
+    justify-content: space-between;
+    margin: 1rem;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: rgb(252, 249, 249);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.5 ease;
+    cursor: pointer;
+} 
+
+nav ul li a:hover {
+    color: #EE5007;
+}
+
+.navbar button {
+    width: 12rem;
+    height: 3rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    background-color: #EE5007;
+    border: none;
+    padding: 1rem;
+}
+
+.navbar button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.Accueil {
+    position: absolute;
+    top: 40%;
+    /* left: 20%; */
+}
+
+.live-class1 {
+    justify-content: center;
+    text-align: center;
+}
+
+.live-part {
+    justify-content: center;
+    text-align: center;
+    margin-left: 12rem;
+}
+
+.live-class1 p{
+    text-align: center;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.live-class1 h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.live-class1 button {
+    background-color: #EE5007;
+    width: 10rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    text-align: center;
+    justify-content: center;
+    place-content: center;
+    justify-items: center;
+    place-items: center;
+}
+
+.live-class1 button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.live-class1 h2 {
+    color: white;
+    margin-top: 16rem;
+    text-align: justify;
+    margin-right: 8rem;
+    margin-left: 3rem;
+}
+
+.live-class1 button,
+.navbar button {
+    cursor: pointer;
+    transition: all 0.5 ease;
+}
+
+.live-class1 button:hover,
+.navbar button:hover {
+    background-color: #c01f27;
+}
+
+.live-text p {
+    margin-top: 16rem;
+}
+
+.live-text p strong {
+    margin-left: 5rem;
+    font-size: 1.2rem;
+}
+
+.live-text {
+    display: flex;
+    text-align: justify;
+    margin-left: 6rem;
+}
+
+.live-text h2 i {
+    color: #EE5007;
+}
+
+.live-text p em i {
+    transition: all 0.5 ease;
+    cursor: pointer;
+}
+
+.live-text p em {
+    background-color: #EE5007;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    transition: all 0.5 ease;
+    cursor: pointer;
+}
+
+.live-text p em:hover {
+    background-color: #F8CB2E;
+}
+
+.live-text p em i:hover {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation: rotate 2s linear infinite; /* Applique l'animation "rotate" */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.section-propos {
+    background: url(images/Image4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    border-radius: 1rem;
+}
+
+.Apropos {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.text-apropos {
+    margin: 1.5rem;
+    color: white;
+}
+
+.text-apropos h2 {
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.text-apropos p {
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+
+.text-apropos h4 {
+    margin: 1rem;
+    font-size: 1.6rem;
+}
+
+.img-apropos img {
+    margin: 3rem;
+    border-radius: 1rem;
+}
+
+.img-apropos {
+    position: relative;
+    
+}
+
+.text-image1 {
+    position: absolute;
+    bottom: 2rem;
+    left: 7%;
+    background-color: rgba(252, 249, 249, 0.5);
+    margin: 3rem;
+    justify-content: center;
+    text-align: center;
+    place-content: center;
+    place-items: center;
+    justify-items: center;
+    padding: 1rem;
+    width: 70%;
+    border-radius: 1.5rem;
+    border: none;
+    height: 25%;
+    display: flex;
+}
+
+.text-imgage2 h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.text-icone {
+    margin-right: 2rem;
+    background-color: #F8CB2E;
+    width: 4rem;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.text-icone i {
+    color: white;
+    font-size: 3rem;
+}
+
+.text-image2 {
+    text-align: justify;
+}
+
+.artist-image {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.text-artist {
+    background: url(images/Image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    margin-right: 2rem;
+    height: 55rem;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.text-artist span {
+    display: flex;
+    background-color: #f8cc2ead;
+    width: 72%;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 0;
+    margin-left: 4rem;
+    visibility: hidden;
+}
+
+.artist-image .text-artist:hover span {
+    visibility: visible;
+    opacity: 1;
+    animation: move 0.5s linear 1
+}
+
+.text-artist1 {
+    text-align: justify;
+}
+
+.text-artist1 p {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-right: 4rem;
+}
+
+.text-artist2 p {
+    color: rgba(0, 0, 255, 0.466);
+    margin-bottom: 1.3rem;
+    text-align: justify;
+}
+
+.artist-img {
+    display: flex;
+    justify-content: center;
+    background: url(images/image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35rem;
+    height: 25rem;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.artist-img span {
+    background-color: #f8cc2ead;
+    display: flex;
+    width: 70%;
+    padding: 1rem;
+    justify-content: center;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    visibility: hidden;
+}
+
+.artist-image .artist-img:hover span {
+    visibility: visible;
+    opacity: 1;
+    animation: move 0.5s linear 1
+}
+
+.artist-img1 p,
+.artist-class1 p {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    text-align: justify;
+}
+
+.artist-img2 p,
+.artist-class2 p {
+    color: rgba(0, 0, 255, 0.726);
+    margin-bottom: 1.3rem;
+    text-align: justify;
+}
+
+.artist-img2 p a {
+    color: #c01f27;
+}
+
+.artist-class {
+    background: url(images/Images3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    height: 25rem;
+    position: relative;
+}
+
+.artist-class span {
+    display: flex;
+    background-color: #f8cc2ead;
+    margin: 1rem;
+    width: 70%;
+    justify-content: center;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-left: 5rem;
+    visibility: hidden;
+    
+}
+
+.artist-image .artist-class:hover span {
+    visibility: visible;
+    opacity: 1;
+    animation: move 0.5s linear 1
+}
+
+.Artistes {
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.Artistes h1 {
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+@keyframes move {
+    0% {
+    transform: translateY(50px);
+  }
+    50% {
+    transform: translateY(0);
+  } 
+} 
+
+.calendrier {
+    background: url(./images/Image5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem; 
+}
+
+.calendrier table {
+    text-align: center;
+    justify-content: center;
+    place-content: center;
+    justify-items: center;
+    place-items: center;
+    width: 70%;
+    margin: 5rem;
+    box-shadow: 0px 0px 20px rgb(36, 35, 34);
+}
+
+.entête tr th {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    background-color: #EE5007;
+}
+
+#date {
+    border-radius: 1rem 0 0 0;
+    padding: 1rem;
+}
+
+#vendredi {
+    border-radius: 0 1rem 0 0;
+}
+
+.jour {
+    background-color: rgb(36, 35, 34);
+    width: 10%;
+}
+
+#table1-div {
+    background: url("images/Image2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    width: 20%;
+}
+
+#table2-div {
+    background-color: #e8e2e5;
+    width: 100%;
+    height: 25rem;
+}
+
+#table3-div {
+    background: url("images/image1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    width: 20%;
+}
+
+.table4-div {
+    background-color: #fcddee;
+    width: 100%;
+    height: 22rem;
+}
+
+#table5-div {
+    background-color: rgb(36, 35, 34);
+    width: 20%;
+    height: 22rem;
+}
+
+.table6-div {
+    background-color: beige;
+    height: 22rem;
+}
+
+#table7-div {
+    background: url("images/Images3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    width: 20%;
+}
+
+#jour3 {
+    border-radius: 0 0 0 1rem;
+}
+
+.table8-div {
+    background-color: antiquewhite;
+    height: 25rem;
+}
+
+#table9-div {
+    background-color: rgb(36, 35, 34);
+    border-radius: 0 0 1rem 0;
+}
+
+ /* 
+
+.artist-image {
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+    place-content: center;
+}
+
+.artist-image1 img {
+    border-radius: 2rem;
+    height: 85%;
+}
+
+.artist-image2 img {
+    margin-bottom: 2rem;
+}
+
+.artist-div img {
+    width: 85%;
+    border-radius: 2rem;
+}
+
+.artist-image1 {
+  position: relative;
+}
+
+
+
+.text-artist1 p,
+.artist-img1 p{
+    text-align: justify;
+    margin-right: 5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.text-artist2,
+.artist-img2 {
+    color: rgba(56, 56, 216, 0.676);
+    padding: 0.8rem;
+}
+
+.text-artist span {
+    display: flex;
+    background-color: #f8cc2e94;
+    margin: 2rem;
+    padding: 1.5rem;
+    width: 70%;
+    border-radius: 2rem;
+    position: absolute;
+    z-index: 0;
+    bottom: 5%;
+    left: 5%;
+    visibility: hidden;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+
+@keyframes move {
+    0% {
+    transform: translateY(100px);
+  }
+    100% {
+    transform: translateY(0);
+  } 
+} 
+
+.text-artist span p,
+.artist-img span p {
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.artist-image .artist-image1:hover span,
+.artist-text .artist-image2:hover span {
+    visibility: visible;
+    opacity: 1;
+    animation: move 0.5s linear 1;
+}
+
+.artist-img span {
+    display: flex;
+    background-color: #f8cc2e94;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    position: absolute;
+    z-index: 1rem;
+    bottom: -185%;
+    left: 55%;
+    visibility: hidden;
+    cursor: pointer;
+    transition: all 0.5s ease;
+} */
+
+/* .artist-image1 span {
+    background-color: #f8cc2ea5;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    text-align: justify;
+    z-index: 1rem;/* 
+    visibility: hidden;
+    left: 0;
+    margin: 1rem;
+    padding: 0.5rem;
+    height: 20%;
+    width: 80%;
+ 
+    justify-content: space-between;
+   
+}
+
+
+.artist-image1 span p a {
+    color: #EE5007;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.artist-image .artist-image1:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+#name-span {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#name-span p strong {
+    color: white;
+    margin-bottom: 5rem;
+} */

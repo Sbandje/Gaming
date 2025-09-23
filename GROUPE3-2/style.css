@@ -17,7 +17,7 @@ body{
 }
 
 header {
-    background-image: url(/banner-bg.jpg);
+    background-image: url(./banner-bg.jpg);
     background-size: cover;
     height: 500px;
     width: 100%;
@@ -175,7 +175,7 @@ header .section-shop p {
 
 
 .footer {
-    background-image: url(/footer-bg.jpg);
+    background-image: url(./footer-bg.jpg);
     background-size: cover;
     color: white;
     text-align: center;
